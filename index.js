@@ -34,12 +34,12 @@ function calcDate()
     time = date.getUTCMinutes();
     if(RAID_MIN != 0)
         minutes = time >= RAID_MIN && hours == -1 ? -1 : (60 - (60 - RAID_MIN)) - time;
-    else minutes = time >= RAID_MIN && hours == -1 ? -1 : 60 - time;
+    else minutes = time >= RAID_MIN && hours == -1 ? -1 : 60 - time - 1;
 
     time = date.getUTCSeconds();
     if(RAID_SEC != 0)
         secounds = time >= RAID_SEC && minutes == -1 ? -1 : (60 - (60 - RAID_SEC)) - time;
-    else secounds = time >= RAID_SEC && minutes == -1 ? -1 : 60 - time;
+    else secounds = time >= RAID_SEC && minutes == -1 ? -1 : 60 - time - 1;
 
     if(
         days == 0 &&
