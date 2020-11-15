@@ -24,7 +24,7 @@ function calcDate()
 
     var time = date.getUTCDay();
 
-    if(time != 6 || time != 0)
+    if(time != 6 && time != 0)
         day = 6 - time
     else day = 0;
 
