@@ -57,18 +57,18 @@ const MessageDisplay = {
         calcDate();
         return {
             day: days,
-            hour: hours,
-            minute: minutes,
-            secound: secounds
+            hour: hours.toString().padStart(2, '0'),
+            minute: minutes.toString().padStart(2, '0'),
+            secound: secounds.toString().padStart(2, '0')
         }
     },
     mounted(){
         setInterval(() => {
             calcDate(),
-            this.day = days,
-            this.hour = hours,
-            this.minute = minutes,
-            this.secound = secounds
+            this.day = days
+            this.hour = hours.toString().padStart(2, '0'),
+            this.minute = minutes.toString().padStart(2, '0'),
+            this.secound = secounds.toString().padStart(2, '0')
             }, 1000)
     } 
 }
