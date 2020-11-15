@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+div{
+    font-family: sans-serif;
+
+    background-color: black;
+    color: wheat;
+
+    text-align: center;
+    font-size: 10vw;
+
+    width: 100%;
+    height: 200px;
+
+    position: fixed;
+    top: 50%;
+    margin-top: -100px;
+};
