@@ -25,11 +25,11 @@ function calcDate()
     var time = date.getUTCDay();
 
     if(time != 6 && time != 0)
-        day = 6 - time
-    else day = 0;
+        days = 6 - time
+    else days = 0;
 
     time = date.getUTCHours();
-    hours = time >= RAID_HOUR && day == 0 ? -1 : RAID_HOUR - time - 1;
+    hours = time >= RAID_HOUR && days == 0 ? -1 : RAID_HOUR - time - 1;
 
     time = date.getUTCMinutes();
     if(RAID_MIN != 0)
