@@ -7,11 +7,12 @@ const QUOTES = [
     "\"You sound like my brain at 4am\" - Gattel, Nov. 2020",
     "\"Fuck y'all\" - Cetone, all day everyday",
     "\"After this trash, I need to go get my tail back\" - Cetone, Nov. 2020",
-    "\"Omg a Brewmster, I rally and banner\" - Gattel, every Spoils of Pandaria encounter",
+    "\"Omg a Brewmaster, I rally and banner\" - Gattel, every Spoils of Pandaria encounter",
     "\"I'm still in prepull\" - Triama every week",
     "\"Oh we pulled?\" - Triama almost every week",
-    "\"It's like you're alergic to healing rain...\" - Cetone after every wipe",
-    "\"STAND IN THE FUCKING HEALING RAIN\" - Cetone when he's mad"
+    "\"It's like you're allergic to healing rain...\" - Cetone after every wipe",
+    "\"STAND IN THE FUCKING HEALING RAIN\" - Cetone when he's mad",
+    "\"Use Stormlash when you hear the sound of my Stampede\" - Sylphe"
 ]
 
 let date = new Date();
