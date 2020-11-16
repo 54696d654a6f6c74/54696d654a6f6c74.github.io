@@ -4,10 +4,12 @@ const RAID_HOUR = 18;
 const RAID_MIN  = 0;
 const RAID_SEC  = 0;
 const QUOTES = [
-    "You sound like my brain at 4am - Gattel, Nov. 2020",
-    "Fuck y'all - Cetone, all day everyday",
-    "After this trash, I need to go get my tail back - Cetone, Nov. 2020",
-    "Omg a Brewmster, I rally and banner - Gattel, every Spoils of Pandaria encounter"
+    "\"You sound like my brain at 4am\" - Gattel, Nov. 2020",
+    "\"Fuck y'all\" - Cetone, all day everyday",
+    "\"After this trash, I need to go get my tail back\" - Cetone, Nov. 2020",
+    "\"Omg a Brewmster, I rally and banner\" - Gattel, every Spoils of Pandaria encounter",
+    "\"I'm still in prepull\" - Triama every week",
+    "\"Oh we pulled?\" - Triama almost every week"
 ]
 
 let date = new Date();
