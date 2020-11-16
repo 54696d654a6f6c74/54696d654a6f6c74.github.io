@@ -9,7 +9,9 @@ const QUOTES = [
     "\"After this trash, I need to go get my tail back\" - Cetone, Nov. 2020",
     "\"Omg a Brewmster, I rally and banner\" - Gattel, every Spoils of Pandaria encounter",
     "\"I'm still in prepull\" - Triama every week",
-    "\"Oh we pulled?\" - Triama almost every week"
+    "\"Oh we pulled?\" - Triama almost every week",
+    "\"It's like you're alergic to healing rain...\" - Cetone after every wipe",
+    "\"STAND IN THE FUCKING HEALING RAIN\" - Cetone when he's mad"
 ]
 
 let date = new Date();
