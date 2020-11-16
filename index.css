@@ -1,8 +1,16 @@
 body{
     background-color: black;
 }
+.quote {
+    font-size: 14pt;
+    font-style: italic;
+}
 
-div{
+.quote_header {
+    margin-top: 1em;
+    font-size: 18pt;
+}
+.countdown {
     font-family: sans-serif;
 
     background-color: black;
@@ -18,3 +26,4 @@ div{
     top: 50%;
     margin-top: -100px;
 };
+

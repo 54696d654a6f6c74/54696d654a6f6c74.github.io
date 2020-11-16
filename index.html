@@ -8,8 +8,15 @@
 	</head>
 
 	<body>
-		<div id="countdown">
+		<div id="countdown" class="countdown">
 			{{ day }} : {{ hour }} : {{ minute }} : {{ secound }}
+			<div class="quote_header">
+				Quote of the day
+			</div>
+			<div class="quote">
+				{{ quote }}
+			</div>
+
 		</div>
 		<script src="index.js"></script>
 	</body>

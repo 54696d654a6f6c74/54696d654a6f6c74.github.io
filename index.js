@@ -3,12 +3,19 @@
 const RAID_HOUR = 18;
 const RAID_MIN  = 0;
 const RAID_SEC  = 0;
+const QUOTES = [
+    "You sound like my brain at 4am - Gattel, Nov. 2020",
+    "Fuck y'all - Cetone, all day everyday",
+    "After this trash, I need to go get my tail back - Cetone, Nov. 2020",
+    "Omg a Brewmster, I rally and banner - Gattel, every Spoils of Pandaria encounter"
+]
 
 let date = new Date();
 let days = 0;
 let hours = 0;
 let minutes = 0;
 let secounds = 0;
+let random_quote = "";
 
 function RaidTime()
 {
@@ -52,14 +59,20 @@ function calcDate()
     }
 }
 
+function getRandomQuote() {
+    random_quote = QUOTES[Math.floor(Math.random() * QUOTES.length)];
+}
+
 const MessageDisplay = {
     data() {
         calcDate();
+        getRandomQuote();
         return {
             day: days,
             hour: hours.toString().padStart(2, '0'),
             minute: minutes.toString().padStart(2, '0'),
-            secound: secounds.toString().padStart(2, '0')
+            secound: secounds.toString().padStart(2, '0'),
+            quote: random_quote
         }
     },
     mounted(){
