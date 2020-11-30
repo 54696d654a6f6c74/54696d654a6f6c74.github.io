@@ -12,7 +12,8 @@ const QUOTES = [
     "\"Oh we pulled?\" - Triama almost every week",
     "\"It's like you're allergic to healing rain...\" - Cetone after every wipe",
     "\"STAND IN THE FUCKING HEALING RAIN\" - Cetone when he's mad",
-    "\"Use Stormlash when you hear the sound of my Stampede\" - Sylphe"
+    "\"Use Stormlash when you hear the sound of my Stampede\" - Sylphe",
+    "\"DPS died at 2nd phase? No problem, time to turn healer mana into boss damage\" - Fivefour"
 ]
 
 let date = new Date();
