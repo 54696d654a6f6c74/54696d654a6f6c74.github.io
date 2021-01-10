@@ -13,7 +13,8 @@ const QUOTES = [
     "\"It's like you're allergic to healing rain...\" - Cetone after every wipe",
     "\"STAND IN THE FUCKING HEALING RAIN\" - Cetone when he's mad",
     "\"Use Stormlash when you hear the sound of my Stampede\" - Sylphe",
-    "\"DPS died at 2nd phase? No problem, time to turn healer mana into boss damage\" - Fivefour"
+    "\"DPS died at 2nd phase? No problem, time to turn healer mana into boss damage\" - Fivefour",
+    "\"Are these healers saving mana for next xpac ?\" - Cetone"
 ]
 
 let date = new Date();
