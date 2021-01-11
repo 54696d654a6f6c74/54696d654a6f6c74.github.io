@@ -9,13 +9,14 @@ const QUOTES = [
     "\"After this trash, I need to go get my tail back\" - Cetone, Nov. 2020",
     "\"Omg a Brewmaster, I rally and banner\" - Gattel, every Spoils of Pandaria encounter",
     "\"I'm still in prepull\" - Triama every week",
-    "\"Oh we pulled?\" - Triama almost every week",
+    "\"Oh we pulled?\" - Triama 1 minute into the pull",
     "\"It's like you're allergic to healing rain...\" - Cetone after every wipe",
     "\"STAND IN THE FUCKING HEALING RAIN\" - Cetone when he's mad",
     "\"Use Stormlash when you hear the sound of my Stampede\" - Sylphe",
     "\"DPS died at 2nd phase? No problem, time to turn healer mana into boss damage\" - Corns",
     "\"Are these healers saving mana for next expansion?\" - Cetone",
-    "\"Wait there's shoulder enchants in this expansion?\" - Corns"
+    "\"Wait there's shoulder enchants in this expansion?\" - Corns",
+    "\"We use marker on Malkarok?\" - Triama 1 year into SoO HC farm"
 ]
 
 let date = new Date();
