@@ -16,7 +16,7 @@ const QUOTES = [
     "\"DPS died at 2nd phase? No problem, time to turn healer mana into boss damage\" - Corns",
     "\"Are these healers saving mana for next expansion?\" - Cetone",
     "\"Wait there's shoulder enchants in this expansion?\" - Corns",
-    "\"We use marker on Malkarok?\" - Triama 1 year into SoO HC farm"
+    "\"We use markers on Malkarok?\" - Triama 1 year into SoO HC farm"
 ]
 
 let date = new Date();
