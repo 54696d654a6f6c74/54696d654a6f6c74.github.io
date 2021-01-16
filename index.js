@@ -17,7 +17,9 @@ const QUOTES = [
     "\"Are these healers saving mana for next expansion?\" - Cetone",
     "\"Wait there's shoulder enchants in this expansion?\" - Corns",
     "\"We use markers on Malkarok?\" - Triama 1 year into SoO HC farm",
-    "\"I'm sorry but your lack of testicular mass concerns me\" - Corns"
+    "\"I'm sorry but your lack of testicular mass concerns me\" - Corns",
+    "\"His cooldown is on cooldown\" - Corns"
+
 ]
 
 let date = new Date();
