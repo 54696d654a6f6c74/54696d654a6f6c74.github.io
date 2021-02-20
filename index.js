@@ -19,6 +19,7 @@ const QUOTES = [
     "\"We use markers on Malkarok?\" - Triama 1 year into SoO HC farm",
     "\"I'm sorry but your lack of testicular mass concerns me\" - Corns",
     "\"His cooldown is on cooldown\" - Corns"
+    "\"Go adjust your geiger counter\" - Cetone"
 
 ]
 
