@@ -54,9 +54,9 @@ function calcDate()
     else if(time >= RAID_HOUR)
     {
             days--;
-            hours = 24 - (time - RAID_HOUR) - 1;
+            hours = 24 - (time - RAID_HOUR) - 2;
     }
-    else hours = RAID_HOUR - time - 1;
+    else hours = RAID_HOUR - time - 2;
 
     time = date.getUTCMinutes();
     if(RAID_MIN != 0)
